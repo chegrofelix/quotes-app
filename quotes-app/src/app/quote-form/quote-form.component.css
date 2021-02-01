@@ -1,0 +1,12 @@
+.quote-area{
+    height: 200px;
+    width: 200px;
+}
+label{
+    color: skyblue;
+    font-size: 20px;
+}
+.form{
+    color: transparent;
+    margin: 10px;
+}

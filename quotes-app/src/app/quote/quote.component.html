@@ -1,0 +1,31 @@
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header sam">
+        <h1>Quotes app</h1>
+      </div>
+    </div>
+    </nav>        
+    <div class="container-fluid qi text-bolder">
+      <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form> 
+        <div class="jumbotron kk" *ngFor = 'let quote of userQuotes, let i = index'>
+          <h2>"{{quote.message}}"</h2>
+            <span class="mb-3 success"><h4>{{quote.author}}</h4></span>
+              <button class="btn sa mb-3" (click)='toogleDetails(i)'>show More</button>
+            <app-quote-metadata *ngIf ="quote.showMeta"[quote]='quote'  (isDeleted)= 'quoteDelete($event,i)'></app-quote-metadata>
+        </div>
+    </div>
+    <footer>
+      <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-snapchat-square"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+      </ul>
+      <p class="copyright text-center">DAVY QUOTE © 2018</p>
+    </div>
+
+  </footer>
+</body>

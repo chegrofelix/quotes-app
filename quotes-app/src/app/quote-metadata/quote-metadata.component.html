@@ -1,0 +1,16 @@
+<div class="container">
+
+<button class="btn btn-default" (click) = 'upVoteQuote()'>Upvote:{{quote.upVote}}</button>
+
+<button class="btn btn-dark" (click) = 'downVoteQuote()'>Downvote:{{quote.downVote}}</button>
+
+<br><br>
+
+<div>posted {{quote.dateAdded|postDuration}} days ago by {{quote.postedBy}}</div>
+
+<br>
+
+<button class="btn btn-danger" (click) = 'quoteDelete(true)' >Delete</button>
+
+<hr>
+</div>

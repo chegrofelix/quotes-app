@@ -4,8 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Author
 
-Name: Felix Chegero .
-Proffesion: Student .
+Name: Felix Chegero.
+
+Proffesion: Student.
 
 
 ## Development server

@@ -1,12 +1,16 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 body {
     background-image: url('./assets/images/photo-1599441959923-efb884063c45.jpeg');
-    color: aliceblue;
+    color: yellow;
 }
 h1 {
     text-align: center;
     color: white;
 }
 h1:hover {
-    color: #af2d2d;
+    color: #ffe227;
+}
+.footer{
+    background-color: black;
+    text-align: center;
 }

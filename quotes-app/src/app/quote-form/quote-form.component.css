@@ -1,12 +1,21 @@
-.quote-area{
-    height: 200px;
-    width: 200px;
+.quote-area {
+    height: 100px;
+    width: 400px;
 }
-label{
+
+label {
     color: skyblue;
     font-size: 20px;
 }
-.form{
-    color: transparent;
+
+.form-group {
     margin: 10px;
+}
+
+.row {
+    text-align: center;
+}
+button{
+    color: yellow;
+    background-color: #493323;
 }

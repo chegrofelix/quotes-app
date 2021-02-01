@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuotesFormComponent implements OnInit {
 
-  constructor() { }
+
+  constructor() { 
+    
+  }
 
   ngOnInit(): void {
   }
